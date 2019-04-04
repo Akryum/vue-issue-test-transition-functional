@@ -7,7 +7,6 @@
       <v-form
         v-if="isEditing"
         ref="form"
-        @submit.prevent="save()"
       />
       <v-card-title v-else>
         <v-btn ref="btn" @click="toggle">Toggle</v-btn>
